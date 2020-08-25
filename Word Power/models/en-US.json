@@ -1,0 +1,290 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "word power",
+            "intents": [
+                {
+                    "name": "MyFirstIntent",
+                    "slots": [],
+                    "samples": [
+                        "select one",
+                        "high frequency word list",
+                        "high frequency words",
+                        "high frequency word",
+                        "word list",
+                        "one",
+                        "open high frequency word list",
+                        "open word list",
+                        "open one"
+                    ]
+                },
+                {
+                    "name": "MyFirstWordIntent",
+                    "slots": [],
+                    "samples": [
+                        "first word",
+                        "first word list",
+                        "first",
+                        "first words list",
+                        "first word set",
+                        "first set words",
+                        "first set of words",
+                        "first hfw"
+                    ]
+                },
+                {
+                    "name": "MySecondWordIntent",
+                    "slots": [],
+                    "samples": [
+                        "second",
+                        "second word",
+                        "second word list",
+                        "second words list",
+                        "second word set",
+                        "second set word",
+                        "second set of words",
+                        "second hfw"
+                    ]
+                },
+                {
+                    "name": "MyThirdWordIntent",
+                    "slots": [],
+                    "samples": [
+                        "third",
+                        "third word",
+                        "third word list",
+                        "third words list",
+                        "third word set",
+                        "third set word",
+                        "third set of words",
+                        "third hfw"
+                    ]
+                },
+                {
+                    "name": "MyFourthWordIntent",
+                    "slots": [],
+                    "samples": [
+                        "fourth",
+                        "fourth word",
+                        "fourth word list",
+                        "fourth words list",
+                        "fourth word set",
+                        "fourth set word",
+                        "fourth set of words",
+                        "fourth hfw"
+                    ]
+                },
+                {
+                    "name": "MyFifthWordIntent",
+                    "slots": [],
+                    "samples": [
+                        "fifth",
+                        "fifth word",
+                        "fifth word list",
+                        "fifth words list",
+                        "fifth word set",
+                        "fifth set word",
+                        "fifth set of words",
+                        "fifth hfw"
+                    ]
+                },
+                {
+                    "name": "MyReenterIntent",
+                    "slots": [],
+                    "samples": [
+                        "yes sure"
+                    ]
+                },
+                {
+                    "name": "MyFirstSpellIntent",
+                    "slots": [],
+                    "samples": [
+                        "two",
+                        "spelling quiz",
+                        "quiz",
+                        "open two",
+                        "open spelling quiz",
+                        "open quiz",
+                        "go to two"
+                    ]
+                },
+                {
+                    "name": "MyFirstSecondSpellIntent",
+                    "slots": [],
+                    "samples": [
+                        "i",
+                        "letter is i",
+                        "letter i"
+                    ]
+                },
+                {
+                    "name": "MySecondSpellIntent",
+                    "slots": [],
+                    "samples": [
+                        "k",
+                        "letter is k",
+                        "letter k"
+                    ]
+                },
+                {
+                    "name": "MyThirdSpellIntent",
+                    "slots": [],
+                    "samples": [
+                        "e",
+                        "letter e",
+                        "letter is e"
+                    ]
+                },
+                {
+                    "name": "MySpellWrongIntent",
+                    "slots": [],
+                    "samples": [
+                        "start again",
+                        "begin",
+                        "start",
+                        "open",
+                        "a",
+                        "b"
+                    ]
+                },
+                {
+                    "name": "MySentenceIntent",
+                    "slots": [],
+                    "samples": [
+                        "three",
+                        "sentence",
+                        "sentences",
+                        "open three",
+                        "open for sentence",
+                        "open for sentences",
+                        "open sentence",
+                        "open sentences"
+                    ]
+                },
+                {
+                    "name": "MyAnIntent",
+                    "slots": [],
+                    "samples": [
+                        "like",
+                        "word is like",
+                        "sentence using like"
+                    ]
+                },
+                {
+                    "name": "MySecondSentenceIntent",
+                    "slots": [],
+                    "samples": [
+                        "have",
+                        "word is have",
+                        "word have"
+                    ]
+                },
+                {
+                    "name": "MyThirdSentenceIntent",
+                    "slots": [],
+                    "samples": [
+                        "has",
+                        "word is has",
+                        "word has"
+                    ]
+                },
+                {
+                    "name": "MyFourthSentenceIntent",
+                    "slots": [],
+                    "samples": [
+                        "see",
+                        "word is see",
+                        "word see"
+                    ]
+                },
+                {
+                    "name": "MyFifthSentenceIntent",
+                    "slots": [],
+                    "samples": [
+                        "and",
+                        "word is and",
+                        "sentence using and"
+                    ]
+                },
+                {
+                    "name": "MySixthSentenceIntent",
+                    "slots": [],
+                    "samples": [
+                        "at",
+                        "word is at",
+                        "sentence using at"
+                    ]
+                },
+                {
+                    "name": "MySeventhSentenceIntent",
+                    "slots": [],
+                    "samples": [
+                        "can",
+                        "word is can",
+                        "sentence using can"
+                    ]
+                },
+                {
+                    "name": "MyEighthSentenceIntent",
+                    "slots": [],
+                    "samples": [
+                        "do",
+                        "word is do",
+                        "sentence using do"
+                    ]
+                },
+                {
+                    "name": "MyNinethSentenceIntent",
+                    "slots": [],
+                    "samples": [
+                        "go",
+                        "word is go",
+                        "sentence using go"
+                    ]
+                },
+                {
+                    "name": "MyTenthSentenceIntent",
+                    "slots": [],
+                    "samples": [
+                        "he",
+                        "word is he",
+                        "sentence is he"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": [
+                        "next",
+                        "skip",
+                        "skip forward"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
