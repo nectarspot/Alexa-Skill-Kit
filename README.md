@@ -1,4 +1,4 @@
-# Alexa-Codes
+# Alexa
 Code for MATH Multiplication Table
 Use the commands
 1.Alexa,Open Math Power
