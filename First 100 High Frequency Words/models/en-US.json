@@ -1,0 +1,129 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "first hundred words",
+            "intents": [
+                {
+                    "name": "MyFirstWordIntent",
+                    "slots": [],
+                    "samples": [
+                        "first word",
+                        "first word list",
+                        "first",
+                        "first words list",
+                        "first word set",
+                        "first set words",
+                        "first set of words",
+                        "first hfw"
+                    ]
+                },
+                {
+                    "name": "MySecondWordIntent",
+                    "slots": [],
+                    "samples": [
+                        "second",
+                        "second word",
+                        "second word list",
+                        "second words list",
+                        "second word set",
+                        "second set word",
+                        "second set of words",
+                        "second hfw"
+                    ]
+                },
+                {
+                    "name": "MyThirdWordIntent",
+                    "slots": [],
+                    "samples": [
+                        "third",
+                        "third word",
+                        "third word list",
+                        "third words list",
+                        "third word set",
+                        "third set word",
+                        "third set of words",
+                        "third hfw"
+                    ]
+                },
+                {
+                    "name": "MyFourthWordIntent",
+                    "slots": [],
+                    "samples": [
+                        "fourth",
+                        "fourth word",
+                        "fourth word list",
+                        "fourth words list",
+                        "fourth word set",
+                        "fourth set word",
+                        "fourth set of words",
+                        "fourth hfw"
+                    ]
+                },
+                {
+                    "name": "MyFifthWordIntent",
+                    "slots": [],
+                    "samples": [
+                        "fifth",
+                        "fifth word",
+                        "fifth word list",
+                        "fifth words list",
+                        "fifth word set",
+                        "fifth set word",
+                        "fifth set of words",
+                        "fifth hfw"
+                    ]
+                },
+                {
+                    "name": "MyReenterIntent",
+                    "slots": [],
+                    "samples": [
+                        "yes sure"
+                    ]
+                },
+                {
+                    "name": "MyErrorIntent",
+                    "slots": [],
+                    "samples": [
+                        "start again",
+                        "begin",
+                        "start",
+                        "open"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": [
+                        "next",
+                        "skip",
+                        "skip forward"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
