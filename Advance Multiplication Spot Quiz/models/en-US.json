@@ -1,0 +1,536 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "advance multiplication quiz",
+            "intents": [
+                {
+                    "name": "NormalLevelIntent",
+                    "slots": [],
+                    "samples": [
+                        "normal",
+                        "normal level",
+                        "open normal",
+                        "open normal level",
+                        "start normal",
+                        "start normal level",
+                        "and normal level",
+                        "and normal",
+                        "open advance subtraction quiz and normal level",
+                        "open advance subtraction quiz and normal"
+                    ]
+                },
+                {
+                    "name": "NormalAnswerIntent",
+                    "slots": [
+                        {
+                            "name": "NormalAnswer",
+                            "type": "LIST_OF_NORMAL_ANSWERS"
+                        }
+                    ],
+                    "samples": [
+                        "is it {NormalAnswer}",
+                        "it is {NormalAnswer}",
+                        "answer is {NormalAnswer}",
+                        "answer {NormalAnswer}",
+                        "my answer is {NormalAnswer}"
+                    ]
+                },
+                {
+                    "name": "NormalAnswerOnlyIntent",
+                    "slots": [
+                        {
+                            "name": "NormalAnswer",
+                            "type": "LIST_OF_NORMAL_ANSWERS"
+                        }
+                    ],
+                    "samples": [
+                        "{NormalAnswer}"
+                    ]
+                },
+                {
+                    "name": "HardLevelIntent",
+                    "slots": [],
+                    "samples": [
+                        "hard",
+                        "hard level",
+                        "open hard",
+                        "open hard level",
+                        "start hard",
+                        "start hard level",
+                        "and hard level",
+                        "and hard",
+                        "open advance subtraction quiz and hard level",
+                        "open advance subtraction quiz and hard"
+                    ]
+                },
+                {
+                    "name": "HardAnswerIntent",
+                    "slots": [
+                        {
+                            "name": "HardAnswer",
+                            "type": "LIST_OF_HARD_ANSWERS"
+                        }
+                    ],
+                    "samples": [
+                        "is it {HardAnswer}",
+                        "it is {HardAnswer}",
+                        "answer is {HardAnswer}",
+                        "answer {HardAnswer}",
+                        "my answer is {HardAnswer}"
+                    ]
+                },
+                {
+                    "name": "HardAnswerOnlyIntent",
+                    "slots": [
+                        {
+                            "name": "HardAnswer",
+                            "type": "LIST_OF_HARD_ANSWERS"
+                        }
+                    ],
+                    "samples": [
+                        "{HardAnswer}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.RepeatIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "open",
+                        "start",
+                        "for",
+                        "it is",
+                        "is it",
+                        "answer is",
+                        "answer",
+                        "my answer is"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "LIST_OF_NORMAL_ANSWERS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "0"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "3"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "6"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "8"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "9"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "10"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "12"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "14"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "15"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "16"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "18"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "20"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "21"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "24"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "25"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "27"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "28"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "30"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "32"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "35"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "36"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "40"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "42"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "45"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "48"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "49"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "54"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "56"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "60"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "63"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "64"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "70"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "72"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "81"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "LIST_OF_HARD_ANSWERS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "144"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "154"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "165"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "168"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "169"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "176"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "182"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "187"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "196"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "204"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "208"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "209"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "210"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "221"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "224"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "225"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "228"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "238"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "240"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "247"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "255"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "256"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "266"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "270"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "272"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "280"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "285"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "288"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "289"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "304"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "306"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "323"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "324"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "342"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "345"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "350"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "360"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "361"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "391"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "400"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "414"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "432"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "450"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "456"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
