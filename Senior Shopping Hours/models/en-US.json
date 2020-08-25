@@ -1,0 +1,216 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "senior shopping hours",
+            "modelConfiguration": {
+                "fallbackIntentSensitivity": {
+                    "level": "LOW"
+                }
+            },
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "choosenMallIntent",
+                    "slots": [
+                        {
+                            "name": "mallSlot",
+                            "type": "mallList"
+                        }
+                    ],
+                    "samples": [
+                        "senior only hours for {mallSlot}",
+                        "at {mallSlot}  the timing for senior",
+                        "for {mallSlot} shop",
+                        "{mallSlot} shop",
+                        "{mallSlot} hour",
+                        "senior time at {mallSlot}",
+                        "at {mallSlot} what is the timing for senior",
+                        "{mallSlot}"
+                    ]
+                },
+                {
+                    "name": "mallListIntent",
+                    "slots": [],
+                    "samples": [
+                        "malls",
+                        "mall list for seniors",
+                        "home",
+                        "home page",
+                        "malls for senior",
+                        "senior shopping mall list",
+                        "mall list"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "mallList",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "winn dixie"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "vallarat supermarket"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "smith's food and drug store"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sedabo's supermarket"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "schnucks"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "publix"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "harveys supermarket"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mother's market"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "giant food"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fresco y mas"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fresh market"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fareway meat and grocery"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bj's whole sale club"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "balducci's"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "albertsons"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bog lots"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "dollar general"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "costco wholesale"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "whole foods market"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "walgreens"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "walmart"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "trader joe's"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "aldi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sam's club"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "safeway"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "target"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "king soopers"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
