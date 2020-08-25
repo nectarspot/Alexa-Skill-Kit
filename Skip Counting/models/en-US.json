@@ -1,0 +1,112 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "skip counting",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "MyCountIntent",
+                    "slots": [
+                        {
+                            "name": "Table",
+                            "type": "LIST_OF_NUMBERS"
+                        }
+                    ],
+                    "samples": [
+                        "{Table}",
+                        " skip counting {Table}",
+                        "{Table} skip counting",
+                        "skip counting {Table}",
+                        "open skip counting of {Table}",
+                        "open skip counting {Table}",
+                        "open {Table}",
+                        "start skip counting {Table}"
+                    ]
+                },
+                {
+                    "name": "MyHelpIntent",
+                    "slots": [],
+                    "samples": [
+                        " skip counting",
+                        "skip counting",
+                        "open skip counting",
+                        "open",
+                        "start skip counting"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "LIST_OF_NUMBERS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "1"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "2"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "3"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "4"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "5"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "6"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "7"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "8"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "9"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "10"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
