@@ -1,0 +1,1070 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "marketing jargon",
+            "modelConfiguration": {
+                "fallbackIntentSensitivity": {
+                    "level": "LOW"
+                }
+            },
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": [
+                        "never",
+                        "no",
+                        "nothing"
+                    ]
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "nothing",
+                        "no",
+                        "never"
+                    ]
+                },
+                {
+                    "name": "wordIntent",
+                    "slots": [
+                        {
+                            "name": "Item",
+                            "type": "LIST_OF_ITEMS"
+                        }
+                    ],
+                    "samples": [
+                        "for {Item}",
+                        "{Item}"
+                    ]
+                },
+                {
+                    "name": "WordListIntent",
+                    "slots": [],
+                    "samples": [
+                        "word list",
+                        "tell me words"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "LIST_OF_ITEMS",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "XML"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "YTD"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "YOY"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "WYSIWYG"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "WWW"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "WOMM"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "WIMP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "WIMAX"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "WIFI"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "VM"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "VOIP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "VOD"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "UX"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "UV"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "USP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "URL"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "URI"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "UGC"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "UI"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "UCD"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "TNT"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "TOS"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "vTLD"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ccTLD"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sTLD"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "gTLD"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "TLD"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "SWOT"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "SSP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "SSL"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "SSH"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "SSA"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "SPCB"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "SOW"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "SOV"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "SOAP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "SMS"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "SMP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "SMO"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "SMM"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "SME"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "SM"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "SLA"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "SIM"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "SFTP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "SERP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "SEO"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "SENSEX"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "SEM"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "SEBI"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "SEB"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "SaaS"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "SAARC"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "S2S"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "RTD"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "RTB"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "RT"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "RSS"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ROS"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ROR"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "RON"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ROI"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ROFL"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "RfQ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "RFP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "RFI"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "REST"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "RAD"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "RAC"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "QS"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "QR Code"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "QTD"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "QoQ"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "QA"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "PWD"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "PV"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "PSLV"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "PR"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "PPV"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "PPL"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "PPC"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "POS"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "PHP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "PBS"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "PERL"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "PAN"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "OS"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ONGC"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "OEM"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "NRA"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "NPS"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "NGO'S"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "NBC"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "NDIS"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "NCSA"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "MVP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "MVT"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "MVC"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "MRR"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "MTD"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "MLM"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "MoM"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "MEA"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "LP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "LTV"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "LOC"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "LAMP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "KPI"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "JSP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "JSON"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ISRO"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ISR"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ISPF"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ISP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "IRS"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "IPTV"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "IP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "INSAT"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "IMAP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "IMD"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "IM"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "IIT"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "IGNOU"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "IAF"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "HTTPS"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "HTTP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "HTML"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "HIPPO"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "GUI"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "GPS"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "GNU"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "GIF"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "GA"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "FTP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "FHA"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "FDIC"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "FDI"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "FBML"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "FB"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ESP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "EPM"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "EPC"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "EIA"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ECPM"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "EDN"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "DSP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "DR"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "DoT"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "DNS"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "DMP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "DM"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CX"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CWA"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CTR"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CSS"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CRO"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CRM"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CR"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CTA"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CPWD"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CPV"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CPS"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CPR"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CPM"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CPL"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CPI"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CPE"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CPD"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CPCV"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CPCB"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CPC"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CPA"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "COS"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "COMPUTER"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CMS"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CLV"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CGI"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CEO"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CCC"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CBSE"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CBI"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CASL"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "CAN-SPAM"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "BJP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "BCCI"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "BEE"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "BANT"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "B2C"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "B2B"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ATD"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ASP"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ASO"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "AR"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "API"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "AOV"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "AJAX"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "AIDA"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ABC"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "AAI"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "AAA"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
