@@ -1,2 +1,2 @@
 # Alexa Skills
-Alexa Skill Design and Development of NecatrSpot Voice team
+Alexa Skill Design and Development of NectarSpot Voice team
