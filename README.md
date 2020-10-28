@@ -1,5 +1,2 @@
-# Alexa
-Code for MATH Multiplication Table
-Use the commands
-1.Alexa,Open Math Power
-2.multiplication table of 4 ex...
+# Alexa Skills
+Alexa Skill Design and Development of NecatrSpot Voice team
